@@ -96,7 +96,8 @@ table.product-list {
     table-layout: fixed;
     text-indent: initial;
     /* width: 100%; */
-    /* border: 2px solid grey; */
+    border: 1px solid darkgrey;
+    margin: 2rem;
     border-collapse: collapse;
 }
 
@@ -138,11 +139,18 @@ table.product-list > thead > tr > th {
     border: 1px solid gray;
 }
 
-table.product-list > tbody > tr > td, table.product-list > tbody > tr > th {
-    border-bottom: 1px solid lightgray;
+table.product-list > tbody > tr > th, table.product-list > tbody > tr > td {
+    
     border-left: 1px solid gray;
 }
 
+table.product-list > tbody > tr {
+    border-bottom: 1px solid lightgray;
+}
+
+table.product-list > tbody > tr:last-child {
+    border-bottom: 1px solid darkgray;
+}
 
 .product-list__header-with-controls {
     /* display: flex; */
