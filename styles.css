@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+ul, li {
+    list-style: none;
+}
+
+tbody td {
+    text-align: center;
+}
+  
+tfoot th {
+    text-align: right;
+}
+
+header.main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+
+    background-color: green;
+}
+
+header.main-nav > .left-icons {
+    background-color: red;
+    display: flex;
+    gap: 2rem;
+}
+
+
+header.main-nav > nav > ul {
+    display: flex;
+    gap: 2rem;
+}
+
+/* Background Layout Helpers */
+main {
+    background-color: blue;
+}
+
+main > .content > .category-list {
+    background-color: brown;
+}
+
+main > .content > .product-display {
+    background-color: white;
+}
+
+main > .content > .order-display {
+    background-color: grey;
+}
+
+footer.main-footer {
+    background-color: blue;
+}
+
+main > .content {
+    height: 100%;
+    background-color: white;
+    min-height: 100vh;
+
+    display: grid;
+}
+
+main > .content > section {
+    position: relative;
+}
+
+main > .content > section > h2 {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    background-color: red;
+}
+
+/* Background layouts */
+main > .content.l-ecommerce {
+    grid-template-columns: 20rem 1fr 20rem;
+}
+
+/* Default Product List styling */
+main > .content.l-ecommerce > .product-display > ul.product-list > li > section {
+    /* display: */
+}
+
+/* Product Table */
+table.product-list {
+    table-layout: fixed;
+    text-indent: initial;
+    /* width: 100%; */
+    border: 2px solid grey;
+    border-collapse: collapse;
+}
+
+#product-select {
+    width: 5%;
+}
+
+#product-sku {
+    width: 10%;
+}
+
+#product-name {
+    width: 20%;
+}
+
+#product-manufacturer {
+    width: 10%;
+}
+
+#product-category {
+    width: 10%;
+}
+
+#product-price {
+    width: 10%;
+}
+
+#product-msrp {
+    width:10%;
+}
+table.product-list > thead > tr > th {
+    width: 100%;
+    border-bottom: 1px solid darkgray;
+}
+
+/* Zebra Striping */
+table.product-list > tbody > tr:nth-child(odd) {
+    background-color: #f2f1f1;
+}
+
+table.product-list > tbody > tr:nth-child(even) {
+    background-color: white;
+}
+
+/* Quantity component */
+table.product-list > tbody > tr > td:has(button.add-to-cart) {
+    display: flex;
+}
+
+/* Cell padding */
+table.product-list > tbody > tr > td, table.product-list > thead > tr > th {
+    padding: 1rem;
+}
+
+/* Footer */
+footer.main-footer {
+    padding: 4rem;
+}
