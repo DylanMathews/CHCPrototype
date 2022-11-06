@@ -96,10 +96,11 @@ table.product-list {
     table-layout: fixed;
     text-indent: initial;
     /* width: 100%; */
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
     border-collapse: collapse;
 }
 
+/* Table column sizing */
 #product-select {
     width: 5%;
 }
@@ -121,17 +122,37 @@ table.product-list {
 }
 
 #product-price {
-    width: 10%;
+    width: 20%;
 }
 
 #product-msrp {
     width:10%;
 }
+
+/* Header styling */
+table.product-list > thead > tr {
+    height: 2rem;
+}
 table.product-list > thead > tr > th {
     width: 100%;
-    border-bottom: 1px solid darkgray;
+    border: 1px solid gray;
 }
 
+table.product-list > tbody > tr > td, table.product-list > tbody > tr > th {
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid gray;
+}
+
+
+.product-list__header-with-controls {
+    /* display: flex; */
+}
+
+.product-list__header-with-controls > ul {
+    font-size: xx-small;
+}
+
+/* .product-list__header-control- */
 /* Zebra Striping */
 table.product-list > tbody > tr:nth-child(odd) {
     background-color: #f2f1f1;
@@ -141,10 +162,6 @@ table.product-list > tbody > tr:nth-child(even) {
     background-color: white;
 }
 
-/* Quantity component */
-table.product-list > tbody > tr > td:has(button.add-to-cart) {
-    display: flex;
-}
 
 /* Cell padding */
 table.product-list > tbody > tr > td, table.product-list > thead > tr > th {
