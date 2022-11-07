@@ -176,6 +176,14 @@ table.product-list > tbody > tr > td, table.product-list > thead > tr > th {
     padding: 1rem;
 }
 
+/* Price Breakdown Table component */
+
+
+.price-breakpoint-table {
+    height: 100%;
+    width: 100%;
+}
+
 /* Footer */
 footer.main-footer {
     padding: 4rem;
