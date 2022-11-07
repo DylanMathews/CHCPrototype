@@ -31,7 +31,7 @@ td {
 
 .underline {
     height:0px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(182, 179, 179);
 }
 tfoot th {
     text-align: right;
@@ -259,7 +259,7 @@ article.manufacturer {
     gap: 1rem;
     
     padding-bottom: 2rem;
-    border-bottom: 1px solid rgb(182, 179, 179);
+    border-bottom: 1px solid gray; /*Horizontal line color*/
     margin-bottom: 2rem;
 }
 
