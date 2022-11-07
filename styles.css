@@ -13,11 +13,11 @@ body {
 }
 
 .large-article {
-    line-height: 1.5rem;
+    line-height: 1.75rem;
 }
 
 .large-article > h2, .large-article > h1 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     text-transform: uppercase;
 }
 
@@ -116,7 +116,7 @@ main > .content > section > h2 {
 
 /* Background layouts */
 main > .content.l-ecommerce {
-    grid-template-columns: 20rem 1fr 20rem;
+    grid-template-columns: 20rem 1fr;
 }
 
 /* Default Product List styling */
@@ -328,6 +328,12 @@ button.add-to-cart {
 .filters {
     background-color:aquamarine;
     height: 19rem;
+}
+
+
+/* Orders List */
+section.order-display {
+    display: none;
 }
 /* Footer */
 footer.main-footer {
