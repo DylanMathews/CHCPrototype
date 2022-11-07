@@ -250,13 +250,30 @@ ol.breadcrumbs {
 /* Top Article Styling */
 article.manufacturer {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    
+    padding-bottom: 2rem;
+    border-bottom: 1px solid grey;
+    margin-bottom: 3rem;
 }
+
+
 
 table.manufacturer-info >  tbody > tr > th, table.manufacturer-info > tbody > tr > td {
     padding: 0 1rem;
 }
 
+/* Search Component */
+.search {
+    background-color: yellow;
+}
+
+/* Filter Component */
+.filters {
+    background-color:aquamarine;
+}
 /* Footer */
 footer.main-footer {
     padding: 4rem;
