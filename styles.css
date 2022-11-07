@@ -99,6 +99,7 @@ table.product-list {
     border: 1px solid darkgrey;
     margin: 2rem;
     border-collapse: collapse;
+    position: relative;
 }
 
 /* Table column sizing */
@@ -136,7 +137,15 @@ table.product-list > thead > tr {
 }
 table.product-list > thead > tr > th {
     width: 100%;
+
+}
+
+/* Sticky header */
+table.product-list > thead > tr > th {
+    top: 0;
+    position: sticky;
     border: 1px solid gray;
+    background-color: rgb(202, 202, 202);
 }
 
 table.product-list > tbody > tr > th, table.product-list > tbody > tr > td {
@@ -169,6 +178,7 @@ table.product-list > tbody > tr:nth-child(odd) {
 table.product-list > tbody > tr:nth-child(even) {
     background-color: white;
 }
+
 
 
 /* Cell padding */
