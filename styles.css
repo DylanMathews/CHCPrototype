@@ -28,7 +28,11 @@ td {
 /* tbody td {
     text-align: center;
 } */
-  
+
+.underline {
+    height:0px;
+    border-bottom: 1px solid gray;
+}
 tfoot th {
     text-align: right;
 }
@@ -107,7 +111,7 @@ section.product-display {
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 /* Product Table */
 table.product-list {
@@ -255,11 +259,9 @@ article.manufacturer {
     gap: 1rem;
     
     padding-bottom: 2rem;
-    border-bottom: 1px solid grey;
-    margin-bottom: 3rem;
+    border-bottom: 1px solid rgb(182, 179, 179);
+    margin-bottom: 2rem;
 }
-
-
 
 table.manufacturer-info >  tbody > tr > th, table.manufacturer-info > tbody > tr > td {
     padding: 0 1rem;
@@ -268,11 +270,13 @@ table.manufacturer-info >  tbody > tr > th, table.manufacturer-info > tbody > tr
 /* Search Component */
 .search {
     background-color: yellow;
+    height: 5rem;
 }
 
 /* Filter Component */
 .filters {
     background-color:aquamarine;
+    height: 19rem;
 }
 /* Footer */
 footer.main-footer {
