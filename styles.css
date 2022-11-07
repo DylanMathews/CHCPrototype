@@ -324,13 +324,13 @@ button.add-to-cart {
 /* Search Component */
 .search {
     background-color: yellow;
-    height: 5rem;
+    height: 4rem;
 }
 
 /* Filter Component */
 .filters {
     background-color:aquamarine;
-    height: 19rem;
+    height: 10rem;
 }
 
 
