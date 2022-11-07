@@ -277,6 +277,21 @@ article.manufacturer {
     padding-bottom: 2rem;
     border-bottom: 1px solid gray; /*Horizontal line color*/
     margin-bottom: 2rem;
+
+    position: relative;
+}
+
+article.manufacturer > header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+}
+
+article.manufacturer > header > img {
+    background-color: black;
+    box-sizing: content-box;
+    padding: 1rem 2rem;
 }
 
 table.manufacturer-info >  tbody > tr > th, table.manufacturer-info > tbody > tr > td {
