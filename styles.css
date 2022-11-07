@@ -16,8 +16,8 @@ body {
     line-height: 1.75rem;
 }
 
-.large-article > h2, .large-article > h1 {
-    font-size: 1.75rem;
+.large-article > header > h2, .large-article > header > h1 {
+    font-size: 3rem;
     text-transform: uppercase;
 }
 
