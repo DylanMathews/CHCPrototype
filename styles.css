@@ -6,6 +6,7 @@
 
 body {
     font-family: Arial,Helvetica,sans-serif;
+    width: fit-content;
 }
 
 .font-roboto-condensed {
@@ -119,6 +120,9 @@ main > .content.l-ecommerce {
     grid-template-columns: 20rem 1fr;
 }
 
+header.main-nav, footer.main-footer {
+    width: 100%;
+}
 /* Default Product List styling */
 main > .content.l-ecommerce > .product-display > ul.product-list > li > section {
     /* display: */
