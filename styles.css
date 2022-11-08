@@ -314,12 +314,18 @@ td.product-quantity {
 }
 /* Add To Cart Button */
 button.add-to-cart {
+    color: white;
+    font-weight: 700;
     box-sizing: content-box;
-    padding: 0.75rem 1rem;
-    background-color: rgb(217, 217, 255);
-    border-radius: 10%;
+    padding: 0.75rem 0.25rem;
+    background-color: rgb(102, 102, 224);
+    border-radius: 10px;
     border: none;
     min-width: 5rem;
+}
+
+button.add-to-cart:hover {
+    background-color: rgb(217, 217, 255);
 }
 /* Search Component */
 .search {
